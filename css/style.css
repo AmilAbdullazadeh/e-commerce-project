@@ -1,0 +1,223 @@
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url("../img/ian-dooley-TT-ROxWj9nA-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  min-height: 1000px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+strong {
+  font-weight: 500;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+hr {
+  margin: 30px 0 30px 0;
+  border: 0;
+  border-top: 1px solid #dddddd;
+}
+
+.left-col,
+.right-col,
+.center-col {
+  padding: 0;
+}
+
+#page header {
+  margin: 2rem 0;
+}
+
+#page header .row {
+  margin-left: 0;
+  margin-right: 0;
+  align-items: center;
+}
+
+#page header .row .left-col {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+#page header .row .left-col .hamburger img {
+  width: 20px;
+}
+
+#page header .row .left-col .search img {
+  width: 20px;
+}
+
+#page header .row .left-col .search input {
+  width: 100px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  #page header .row .left-col .search input {
+    display: none;
+  }
+}
+
+#page header .row .right-col {
+  display: flex;
+  justify-content: space-around;
+}
+
+#page header .row .right-col .favourites p {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  #page header .row .right-col .favourites {
+    display: none;
+  }
+}
+
+#page header .row .right-col .login p {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  #page header .row .right-col .login {
+    display: none;
+  }
+}
+
+#page header .row .right-col .badge span {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 50%;
+  width: 24px;
+  height: 20px;
+  padding-top: 4px;
+}
+
+#page header .row .right-col .badge img {
+  width: 18px;
+}
+
+#page header .row .center-col .logo {
+  text-align: center;
+}
+
+#page header .row .center-col .logo h4 {
+  color: #fff;
+  letter-spacing: -6px;
+  font-size: 38px;
+  font-weight: 300;
+}
+
+#page main {
+  color: #fff;
+  min-height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page main .main-row .text {
+  text-align: center;
+}
+
+#page main .main-row .text h1 {
+  text-transform: uppercase;
+  font-size: 7rem;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  #page main .main-row .text h1 {
+    font-size: 5rem;
+  }
+}
+
+#page main .main-row .text .p-text p {
+  padding: 10px 30rem;
+}
+
+@media (max-width: 767px) {
+  #page main .main-row .text .p-text p {
+    padding: 0;
+  }
+}
+
+#page main .main-row .text a {
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 35px;
+  border-radius: 25px;
+  font-weight: 600;
+}
+
+.scrolltop {
+  position: fixed;
+  bottom: 70px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  display: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolltop:hover {
+  background-color: #ababab;
+}
+
+.scrolltop:hover i {
+  color: #000;
+}
+
+.scrolltop .icon {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.scrolltop .icon i {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
